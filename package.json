@@ -1,0 +1,22 @@
+{
+  "name": "nobisratione",
+  "version": "1.0.0",
+  "description": "Monorepo containing numerical codecs and arbitraries",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndyCassin/nobisratione.git"
+  },
+  "license": "ISC",
+  "author": "CorineLang",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@semantic-release-extras/monorepo-github-comment": "1.0.1",
+    "@semantic-release/changelog": "6.0.2",
+    "@semantic-release/git": "10.0.1",
+    "multi-semantic-release": "3.0.1",
+    "patch-semantic-release-npm-for-msr": "1.0.0",
+    "typescript": "4.7.4"
+  }
+}
